@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Notification -->
+
+    <dimen name="notificationContainerPaddingTop">7dp</dimen>
+    <dimen name="notificationContainerPaddingLeft">5dp</dimen>
+    <dimen name="notificationIconPaddingTop">3dp</dimen>
+    <dimen name="notificationIconImageWidth">25dp</dimen>
+    <dimen name="notificationIconImageHeight">25dp</dimen>
+    <dimen name="notificationIconTextSize">18sp</dimen>
+    <dimen name="notificationIconTextPaddingLeft">4dp</dimen>
+    <dimen name="notificationDescriptionTextSize">14sp</dimen>
+    <dimen name="notificationDescriptionPaddingLeft">4dp</dimen>
+</resources>

@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/SimpleNotificationInProgressContainer">
+
+	<LinearLayout style="@style/SimpleNotificationInProgressIconContainer">
+
+		<ImageView android:id="@+id/simpleNotificationIconImage"
+			style="@style/SimpleNotificationIconImage"/>
+
+		<TextView android:id="@+id/simpleNotificationIconTitle" 
+			style="@style/SimpleNotificationIconText" />
+
+		<TextView android:id="@+id/simpleNotificationInProgressAction" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:singleLine="true" android:fadingEdge="horizontal"
+			android:textSize="14sp" android:gravity="right" android:textColor="#FF000000"
+			android:text="Notification Action..." />
+
+	</LinearLayout>
+
+	<RelativeLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginLeft="29dp">
+		<ProgressBar android:id="@+id/progressBar"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal" style="?android:attr/progressBarStyleHorizontal"
+			android:layout_centerInParent="true" />
+		<TextView android:id="@+id/progressPercentage"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_centerInParent="true" android:textColor="@android:color/white"
+			android:textSize="12dp" android:textStyle="bold" android:text="0%"/>
+	</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/SimpleNotificationContainer">
+
+	<LinearLayout style="@style/SimpleNotificationIconContainer">
+
+		<ImageView android:id="@+id/simpleSimpleNotificationIconImage" 
+			style="@style/SimpleNotificationIconImage"/>
+
+		<TextView android:id="@+id/simpleSimpleNotificationTitle"
+			style="@style/SimpleNotificationIconText"/>
+
+	</LinearLayout>
+
+	<LinearLayout style="@style/SimpleNotificationDescriptionContainer">
+
+		<TextView android:id="@+id/text"
+			style="@style/SimpleNotificationDescriptionText" />
+
+	</LinearLayout>
+
+</LinearLayout>

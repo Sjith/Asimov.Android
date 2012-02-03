@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- General -->
+    <string name="app_name">Asimov</string>
+
+	<!-- Main Menu -->
+    <string name="list_activity_demo_button">Simple List</string>
+    <string name="map_activity_demo_button">Simple Map</string>
+    <string name="asimov_info_activity_demo_button">Asimov Info</string>
+    
+    <!-- Splash -->
+    <string name="splash_activity_title">Asimov</string>
+
+    <string name="item_clicked">Elemento seleccionado</string>
+    <string name="more_elements">Mas elementos</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="DemoSimpleContentView" parent="@style/SimpleVerticalFillParentLinearLayout">
+		<item name="android:gravity">center</item>
+		<item name="android:background">@android:color/white</item>
+	</style>
+
+	<style name="MainMenuContentView" parent="@style/DemoSimpleContentView">
+	</style>
+
+	<!-- Splash Activity -->
+
+	<style name="SplashActivityContentView" parent="@style/DemoSimpleContentView">
+		<item name="android:background">@drawable/splash_shape</item>
+	</style>
+
+	<style name="SplashActivityLogo" parent="@style/SimpleImageView">
+		<item name="android:layout_margin">@dimen/splash_activity_logo_margin</item>
+	</style>
+
+	<style name="SplashActivityProgressBar" parent="@style/WrapContentView" />
+
+	<style name="SplashActivityTitle" parent="@style/SimpleTextView" />
+
+</resources>

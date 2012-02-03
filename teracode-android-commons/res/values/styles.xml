@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Base -->
+	<style name="WrapContentView">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="FillParentView">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+	</style>
+
+	<style name="WrapContentWidthView" parent="@style/FillParentView">
+		<item name="android:layout_width">wrap_content</item>
+	</style>
+
+	<style name="WrapContentHeightView" parent="@style/FillParentView">
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="FillParentWidthView" parent="@style/WrapContentView">
+		<item name="android:layout_width">fill_parent</item>
+	</style>
+
+	<style name="FillParentHeightView" parent="@style/WrapContentView">
+		<item name="android:layout_height">fill_parent</item>
+	</style>
+
+	<!-- Simple View -->
+
+	<style name="SimpleImageView" parent="@style/WrapContentView" />
+
+	<style name="SimpleScaledCenterImageView">
+		<item name="android:scaleType">fitCenter</item>
+	</style>
+
+	<style name="SimpleIndeterminateProgressBarSpinner" parent="@style/WrapContentView" />
+
+	<style name="SimpleButton" parent="@style/WrapContentView" />
+	
+	<style name="SimpleTextView" parent="@style/WrapContentView" />
+
+	<style name="SimpleListView" parent="@style/FillParentView" />
+
+	<!-- Simple Layout -->
+
+	<style name="SimpleVerticalFillParentLinearLayout" parent="@style/FillParentView">
+		<item name="android:orientation">vertical</item>
+	</style>
+
+	<style name="SimpleVerticalWrapContentLinearLayout" parent="@style/WrapContentView">
+		<item name="android:orientation">vertical</item>
+	</style>
+
+	<style name="SimpleHorizontalFillParentLinearLayout" parent="@style/FillParentView">
+		<item name="android:orientation">horizontal</item>
+	</style>
+
+	<style name="SimpleHorizontalWrapContentLinearLayout" parent="@style/WrapContentView">
+		<item name="android:orientation">horizontal</item>
+	</style>
+
+	<!-- Simple Notification -->
+
+	<style name="SimpleNotificationContainer" parent="@style/SimpleVerticalFillParentLinearLayout">
+		<item name="android:paddingTop">@dimen/notificationContainerPaddingTop</item>
+		<item name="android:paddingLeft">@dimen/notificationContainerPaddingLeft</item>
+	</style>
+
+	<style name="SimpleNotificationIconContainer" parent="@style/SimpleHorizontalFillParentLinearLayout" />
+
+	<style name="SimpleNotificationIconImage" parent="@style/SimpleScaledCenterImageView">
+		<item name="android:layout_width">@dimen/notificationIconImageWidth</item>
+		<item name="android:layout_height">@dimen/notificationIconImageHeight</item>
+	</style>
+
+	<style name="SimpleNotificationBaseTextView" parent="@style/WrapContentHeightView">
+		<item name="android:layout_weight">1</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:fadingEdge">horizontal</item>
+		<item name="android:textColor">@color/notificationIconTextColor</item>
+	</style>
+
+	<style name="SimpleNotificationIconText" parent="@style/SimpleNotificationBaseTextView">
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">@dimen/notificationIconTextSize</item>
+		<item name="android:paddingLeft">@dimen/notificationIconTextPaddingLeft</item>
+		
+	</style>
+
+	<style name="SimpleNotificationDescriptionContainer" parent="@style/SimpleHorizontalFillParentLinearLayout" />
+
+	<style name="SimpleNotificationDescriptionText" parent="@style/SimpleNotificationBaseTextView">
+		<item name="android:textSize">@dimen/notificationDescriptionTextSize</item>
+		<item name="android:paddingLeft">@dimen/notificationDescriptionPaddingLeft</item>
+	</style>
+
+	<!-- Simple Notification In Progress -->
+
+	<style name="SimpleNotificationInProgressContainer" parent="@style/SimpleVerticalFillParentLinearLayout">
+		<item name="android:paddingTop">@dimen/notificationContainerPaddingTop</item>
+		<item name="android:paddingLeft">@dimen/notificationContainerPaddingLeft</item>
+	</style>
+
+	<style name="SimpleNotificationInProgressIconContainer" parent="@style/SimpleHorizontalFillParentLinearLayout" />
+
+</resources>

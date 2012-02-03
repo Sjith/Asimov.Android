@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/MainMenuContentView">
+	<Button style="@style/SimpleButton"
+    	android:onClick="goListActivity"
+    	android:text="@string/list_activity_demo_button" 
+    	/>
+	<Button style="@style/SimpleButton"
+    	android:onClick="goMapActivity"
+    	android:text="@string/map_activity_demo_button" 
+	    />
+	<Button style="@style/SimpleButton"
+    	android:onClick="goAsimovInfoActivity"
+    	android:text="@string/asimov_info_activity_demo_button" 
+	    />
+</LinearLayout>

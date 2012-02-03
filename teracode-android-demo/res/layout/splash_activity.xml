@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  style="@style/SplashActivityContentView">
+
+	<ProgressBar style="@style/SplashActivityProgressBar" />
+
+	<ImageView style="@style/SplashActivityLogo" 
+  		android:src="@drawable/logo"/>
+
+	<TextView style="@style/SplashActivityTitle"
+		android:text="@string/splash_activity_title" />
+
+</LinearLayout>

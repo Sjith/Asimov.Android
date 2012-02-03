@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/inject/guice/2.0-no_aop/guice-2.0-no_aop.jar" sourcepath="M2_REPO/com/google/inject/guice/2.0-no_aop/guice-2.0-no_aop-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/roboguice/roboguice/1.1.2/roboguice-1.1.2.jar" sourcepath="M2_REPO/org/roboguice/roboguice/1.1.2/roboguice-1.1.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/james/apache-mime4j/0.6/apache-mime4j-0.6.jar" sourcepath="M2_REPO/org/apache/james/apache-mime4j/0.6/apache-mime4j-0.6-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpmime/4.0.1/httpmime-4.0.1.jar" sourcepath="M2_REPO/org/apache/httpcomponents/httpmime/4.0.1/httpmime-4.0.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/android/activation/1.0/activation-1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/android/additionnal/1.0/additionnal-1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/android/mail/1.0/mail-1.0.jar"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
